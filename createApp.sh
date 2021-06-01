@@ -1,6 +1,8 @@
 npm init -y
 git config --global init.defaultBranch main
 git init
+git commit -m "first commit"
+git branch -M main
 npm install --save express dotenv
 npm install --save-dev @babel/core @babel/node @babel/preset-env nodemon
 mkdir src
